@@ -1,17 +1,709 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  </head>
-  <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WTF: Webpack starter kit</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+</head>
+
+<body>
+  <div class="hello">
+    <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
+    <span class="hello__circles"></span>
+  </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage-webpack</title>
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> -->
+
+
+</head>
+
+<body>
+  <main class="main">
+    <div class="navigation-container">
+      <nav class="navigation">
+        <a class="navigation__logo" href="#start">
+          <img class="navigation__logo-svg" src="../assets/img/gawronLogo-03.svg" alt="logo">
+        </a>
+        <ul class="navigation-list navigation-list--js">
+          <li class="navigation-list__item navigation-list-item--span">
+            <a target="_blank" href="https://c-ary-gawronski.githu-io/business-card/"
+              class="navigation-list__link navigation-list__link--span">
+              <span class="navigation-list__link--special">To Ja</span>
+            </a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon" src="../assets/icon/icon_html.svg" alt="">
+            <a class="navigation-list__link" href="#html">HTML</a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon" src="../assets/icon/icon_css.svg" alt="">
+            <a class="navigation-list__link" href="#css">CSS</a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon" src="../assets/icon/icon_git.svg" alt="">
+            <a class="navigation-list__link" href="#git">Git</a>
+          </li>
+          <li class="navigation-list__item navigation-list__item--span">
+            <a class="navigation-list__link na-gation-list__link---an" href="#bem">
+              <span class="navigation-list__link--special">BEM</span>
+            </a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon" src="../assets/icon/icon_js.svg" alt="">
+            <a class="navigation-list__link" href="#js">JavaScript</a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon" src="../assets/icon/icon_sass.svg" alt=""><a
+              class="navigation-list__link" href="#sass">SASS</a>
+          </li>
+          <li class="navigation-list__item">
+            <img class="navigation-list__icon -vigation-list__icon--react" src="../assets/icon/icon_react.svg" alt="">
+            <a class="navigation-list__link" href="#react">React</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        <span class="hamburger--size">🍔</span>
+      </button>
+
+      <aside class="last-upgrade last-upgrade--js">
+        <ul class="last-upgrade__list">
+          <li class="last-upgrade__list-item">Poprawiony BEM</li>
+          <li class="last-upgrade__list-item">Użyty pseudoelement ::before</li>
+          <li class="last-upgrade__list-item">Przejście do SASS SCSS</li>
+          <li class="last-upgrade__list-item"><a href="#grid">Zastosowany GRID do nowej sekcji</a></li>
+        </ul>
+        <div class="last-upgrade__tongue">
+          <span class="last-upgrade__tongue last-upgrade__tongue-special">Rozwiń Mnie 😁</span>
+        </div>
+      </aside>
     </div>
-  </body>
+
+    <header class="header" id="start">
+      <section class="technology">
+        <h1 class="technology__header">To tylko część technologii z&nbsp;którymi trzeba się zaprzyjaźnić <span
+            class="technology__header-emoji">
+            &lt;&nbsp;😁/&nbsp;&gt;
+          </span>
+        </h1>
+
+        <ul class="technology__list">
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_html.svg" alt="logo semantycznego html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_sematic.svg" alt="logo semantycznego html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_css.svg" alt="logo css">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_js.svg" alt="logo java script">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_git.svg" alt="logo git">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_github.svg" alt="logo github">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_sass.svg" alt="logo sass">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_figma.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_vsc.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_npm.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_node.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_chrome.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_acces.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_react.svg" alt="logo html">
+            </a>
+          </li>
+
+          <li class="technology__icon-card">
+            <a href="#" class="technology__icon-link">
+              <img class="technology__icon" src="../assets/icon/icon_firefox.svg" alt="logo html">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </header>
+  </main>
+
+  <section class="about-technology">
+    <h2 class="about-technology__header">
+      Krótka charakterystyka wybranych technologii i&nbsp;narzędzi
+    </h2>
+    <span id="html" class="nav-anchor-id"></span>
+    <article class="about">
+      <h2 class="about__header">HTML</h2>
+      <img class="about__icon" src="../assets/icon/icon_html.svg" alt="logo html">
+      <p class="about__lead">
+        <strong>
+          HTML (Hypertext Markup Language) jest to kod używany do tworzenia struktury strony i jej zawartości.
+          Na
+          przykład treść może być uporządkowana w obrębie zestawu akapitów, listy punktowanych punktów lub
+          tabel
+          obrazów i danych. Jak sugeruje tytuł, ten artykuł daje podstawy do zrozumienia HTML i jego funkcji.
+        </strong>
+      </p>
+
+      <section class="about-columns">
+        <h3 class="about__title">
+          Od czegoś trzeba zacząć
+        </h3>
+        <p class="about__paragraphs">
+          HTML i CSS stanowią podstawę środowiska webowego. Podczas gdy HTML jest odpowiedzialny za
+          funkcjonalność strony internetowej, CSS jest odpowiedzialny za sposób jej prezentacji.
+        </p>
+        <p class="about__paragraphs">
+          Decydowanie się na usługi tworzenia wysokiej jakości stron internetowych jest najlepszym
+          rozwiązaniem, jeśli chcesz budować witryny o doskonałej funkcjonalności. Jednak jeśli jest to praca
+          o niskim obciążeniu, możesz to zrobić samodzielnie, z niewielkim zrozumieniem CSS i HTML.
+        </p>
+
+        <p class="about__paragraphs">
+          Jeśli od dawna zastanawiasz się nad nauką HTML i CSS, ale odkładasz to na bok, myśląc, że tych
+          technologii webowych trudno się nauczyć, być może wprowadzono Cię w błąd. Nie musisz poświęcać dużo
+          czasu na udział w kursach online i przeprowadzanie testów praktycznych, aby uzyskać niektóre z
+          korzyści oferowanych przez te podstawowe technologie internetowe.
+        </p>
+
+        <p class="about__paragraphs">
+          Nauczenie się podstaw HTML, takiego jak tworzenie elementów internetowych, takich jak przyciski,
+          obrazy i tekst, w połączeniu z pewną wiedzą na temat CSS, w celu dostosowania sposobu wyświetlania
+          wyżej wymienionych elementów internetowych, może służyć wielu celom i zaoszczędzić pieniądze i czas
+          przyszłe wysiłki.
+        </p>
+      </section>
+    </article>
+    <span id="css" class="nav-anchor-id"></span>
+    <article class="about">
+      <h2 class="about__header">CSS</h2>
+      <img class="about__icon" src="../assets/icon/icon_css.svg" alt="logo html">
+      <p class="about__lead">
+        <strong>
+          Kaskadowe arkusze stylów CSS (ang. Cascading Style Sheets) to kod służący do nadawania wyglądu
+          strony.
+          CSS Podstawy przeprowadzi cię przez bazowe zagadnienia, abyś mógł zacząć modyfikować wygląd swojej
+          strony. Odpowiemy na takie pytania jak: Jak zrobić, żeby mój tekst był czarny albo czerwony? Jak
+          wyświetlić poszczególną zawartość strony w wybranych miejscach ekranu? Jak dekorować stronę obrazami
+          czy
+          nadać kolor tła?
+        </strong>
+      </p>
+
+      <div class="about-columns">
+        <h3 class="about__title">
+          Próba dzielenia wyrazów
+        </h3>
+        <p class="about__paragraphs">
+          Po&shy;dob&shy;nie jak HTML, CSS nie jest ję&shy;zy&shy;kiem pro&shy;gra&shy;mo&shy;wa&shy;nia. Nie
+          jest jed&shy;nak też języ&shy;kiem
+          znacz&shy;ni&shy;ków — jest ję&shy;zy&shy;kiem ar&shy;ku&shy;szy sty&shy;lów (ang. style sheet
+          lan&shy;guage).
+          Ozna&shy;cza to, że
+          poz&shy;wa&shy;la on se&shy;lek&shy;ty&shy;wnie sto&shy;so&shy;wać sty&shy;le do ele&shy;men&shy;tów
+          w&nbsp;do&shy;ku&shy;men&shy;tach HTML.
+        </p>
+        <p class="about__paragraphs">
+          Wciąż jednak mu&shy;si&shy;my powią&shy;zać ten kod CSS z&nbsp;twoim do&shy;ku&shy;men&shy;tem HTML.
+          W&nbsp;prze&shy;ciw&shy;nym wy&shy;pa&shy;dku stw&shy;rzo&shy;ny kod CSS nie będzie miał wpły&shy;wu
+          na wy&shy;gląd two&shy;jej
+          stro&shy;ny. (Jeśli nie śle&shy;dzisz na&shy;szego pro&shy;jek&shy;tu od po&shy;czą&shy;tku,
+          prze&shy;czy&shy;taj
+          Struk&shy;tura pli&shy;ków wi&shy;try&shy;ny
+          oraz HTML podsta&shy;wy, żeby do&shy;wie&shy;dzieć się co wpierw na&shy;leży wy&shy;ko&shy;nać.)
+        </p>
+        <p class="about__paragraphs">
+          Jeśli od daw&shy;na zas&shy;ta&shy;na&shy;wiasz się nad na&shy;uką HTML i&nbsp;CSS, ale
+          od&shy;kła&shy;dasz to na bok, my&shy;śląc, że
+          tych tech&shy;no&shy;logii we&shy;bo&shy;wych trud&shy;no się nau&shy;czyć, być może
+          wpro&shy;wa&shy;dzo&shy;no Cię w&nbsp;błąd. Nie mu&shy;sisz
+          poświę&shy;cać dużo czasu na udział w&nbsp;kur&shy;sach online
+          i&nbsp;prze&shy;pro&shy;wa&shy;dza&shy;nie test&shy;ów
+          prak&shy;tyczn&shy;ych, aby uzys&shy;kać nie&shy;które z&nbsp;ko&shy;rzyś&shy;ci
+          ofe&shy;ro&shy;wa&shy;nych przez te pods&shy;ta&shy;wo&shy;we tech&shy;no&shy;lo&shy;gie
+          in&shy;ter&shy;ne&shy;towe.
+        </p>
+        <p class="about__paragraphs">
+          Nauczenie się podstaw HTML, takiego jak tworzenie elementów internetowych, takich jak przyciski,
+          obrazy i&nbsp;tekst, w&nbsp;połączeniu z&nbsp;pewną wiedzą na temat CSS, w&nbsp;celu dostosowania
+          sposobu wy&shy;świetlania wyżej wymienio&shy;nych elementów interneto&shy;wych, może służyć wielu
+          ce&shy;lom i&nbsp;zaoszczędzić pieniądze i&nbsp;czas przyszłe wysiłki.
+        </p>
+      </div>
+
+      <div class="about-columns">
+        <h3 class="about__title">
+          Czym właściwie jest CSS?
+        </h3>
+        <p class="about__paragraphs">
+          Podobnie jak HTML, CSS nie jest językiem programowania. Nie jest jednak też językiem znaczników —
+          jest
+          językiem arkuszy stylów (ang. style sheet language). Oznacza to, że pozwala on selektywnie stosować
+          style do elementów w dokumentach HTML.
+        </p>
+        <p class="about__paragraphs">
+          Wciąż jednak musimy powiązać ten kod CSS z twoim dokumentem HTML. W przeciwnym wypadku stworzony kod
+          CSS
+          nie będzie miał wpływu na wygląd twojej strony. (Jeśli nie śledzisz naszego projektu od poczatku,
+          przeczytaj Struktura plików witryny oraz HTML podstawy, żeby dowiedzieć się co wpierw należy
+          wykonać.)
+        </p>
+        <p class="about__paragraphs">
+          Jeśli od dawna zastanawiasz się nad nauką HTML i CSS, ale odkładasz to na bok, myśląc, że tych
+          technologii webowych trudno się nauczyć, być może wprowadzono Cię w błąd. Nie musisz poświęcać dużo
+          czasu na udział w kursach online i przeprowadzanie testów praktycznych, aby uzyskać niektóre z
+          korzyści oferowanych przez te podstawowe technologie internetowe.
+        </p>
+        <p class="about__paragraphs">
+          Nauczenie się podstaw HTML, takiego jak tworzenie elementów internetowych, takich jak przyciski,
+          obrazy i tekst, w połączeniu z pewną wiedzą na temat CSS, w celu dostosowania sposobu wyświetlania
+          wyżej wymienionych elementów internetowych, może służyć wielu celom i zaoszczędzić pieniądze i czas
+          przyszłe wysiłki.
+        </p>
+      </div>
+    </article>
+
+    <span id="js" class="nav-anchor-id"></span>
+
+    <article class="about">
+      <h2 class="about__header">Java Script</h2>
+      <img class="about__icon" src="../assets/icon/icon_js.svg" alt="logo html">
+      <p class="about__lead">
+        <strong>
+          JavaScript to język programowania, który dodaje interaktywność do Twojej witryny (na przykład: gry,
+          odpowiedzi po naciśnięciu przycisków lub wprowadzeniu danych do formularza, dynamiczne stylowanie,
+          animacja). Ten artykuł pomoże Ci rozpocząć przygodę z tym ekscytującym językiem oraz przedstawi
+          przedsmak tego, co dzięki niemu jest możliwe.
+        </strong>
+      </p>
+
+      <div class="about-columns">
+        <h3 class="about__title">
+          Czym naprawdę jest JavaScript?
+        </h3>
+        <p class="about__paragraphs">
+          JavaScript (w skrócie "JS") jest pełnoprawnym dynamicznym językiem programowania, który po dodaniu
+          do
+          dokumentu HTML, może dostarczyć dynamiczną zawartość do stron internetowych. Został stworzony przez
+          Brendan'a Eich, współtwórcę projektu Mozilla, Mozilla Foundation i Mozilla Corporation.
+        </p>
+        <p class="about__paragraphs">
+          JavaScript jest niezwykle wszechstronny. Możesz zacząć z czymś małym, z karuzelami, galeriami
+          obrazków,
+          zmiennymi układami strony i odpowiedziami na kliknięcia przycisków. Z większym doświadczeniem,
+          będziesz
+          w stanie stworzyć gry, animowane grafiki 2D i 3D, kompleksowe aplikacje oparte na bazach danych i
+          wiele
+          więcej!
+        </p>
+        <p class="about__paragraphs">
+          JavaScript jest dość zwarty, ale jednocześnie bardzo elastyczny. Programiści napisali wiele różnych
+          narzędzi z wykorzystaniem rdzenia języka JavaScript, otwierając mnóstwo dodatkowych funkcjonalności
+          przy
+          minimalnym wysiłku.
+        </p>
+        <p class="about__paragraphs">
+          Ponieważ ten artykuł ma być jedynie lekkim wprowadzeniem do JavaScript, nie będziemy mieszać Ci na
+          tym
+          etapie mówiąc szczegółowo o tym, jaka jest różnica między jądrem języka JavaScript, a różnymi
+          narzędziami wymienionymi powyżej. Możesz później nauczyć się tego wszystkiego szczegółowo, w naszym
+          JavaScript learning area i w pozostałych artykułach MDN.
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <span id="grid" class="nav-anchor-id nav-anchor-id-grid"></span>
+
+  <section class="famous-programmers">
+    <h2 class="famous-programmers__header">Wyjątkowe zestawienie najlepszych programistów w&nbsp;historii</h2>
+
+    <div class="programmer-container">
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Ada Lovelace <i>(1815-1852)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Ada_Lovelace" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img
+                  src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg"
+                  alt="Wizerunek Ady Lovelace" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Ada Lovelace to prawdziwy symbol programistki i&nbsp;wzór dla
+              wielu pań w&nbsp;środowisku. Ada Lovelace
+              była Brytyjką i&nbsp;żyła w&nbsp;XIX wieku.
+              <strong>
+                Często jest uważana za pierwszą na świecie programistkę.
+              </strong>
+              Była współ&shy;pra&shy;cowni&shy;czką Charlesa Babbage’a, twórcy
+              projektu maszyny analitycznej. Właśnie specjalnie dla tej maszyny
+              <strong>
+                Ada napisała program, który pozwalał obliczać kolejne wyrazy określonego ciągu
+                liczbowego.
+              </strong>
+              To w&nbsp;rzeczywistości najstarszy znany współczesny program komputerowy.
+              Niestety, maszyna Babbage’a&nbsp;nigdy nie została ukończona.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Dennis Ritchie <i>(1941-2011)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Dennis_Ritchie" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://ubuntuincident.files.wordpress.com/2011/10/dmr.png" alt="Fotografia Dennisa Ritchie"
+                  class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Amerykański wybitny informatyk, który odcisnął wielokrotnie
+              swoje piętno w&nbsp;branży IT. Najpierw był współtwórcą języka
+              pro&shy;gra&shy;mowa&shy;nia&nbsp;B, opracowanego w&nbsp;Bell Labs w&nbsp;1969&nbsp;roku,
+              a&nbsp;potem na jego bazie
+              <strong>
+                opracował język&nbsp;C razem z&nbsp;Kenem Thompsonem i&nbsp;Brianem Kernighanem
+              </strong>
+              na początku lat 70&nbsp;XX&nbsp;wieku. W&nbsp;międzyczasie
+              <strong>
+                był również współtwórcą systemu operacyjnego Unix.
+              </strong>
+              Bez wątpienia wpłynął na myślenie o&nbsp;nowoczesnych językach programowania.
+              W&nbsp;1983&nbsp;roku Ritchie
+              <strong>
+                otrzymał nagrodę Turinga,
+              </strong>
+              przyznawaną co roku za wybitne osiągnięcia w&nbsp;informatyce.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Bjarne Stroustrup <i>(ur.&nbsp;1950)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Bjarne_Stroustrup" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://www.uib.no/sites/w3.uib.no/files/media/bjarne-bldl-opening.jpg"
+                  alt="Fotografia Bjarne Stroustrup" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Niezwykły duński informatyk, który z&nbsp;równą pasją
+              <strong>
+                zajmuje się komputerami i&nbsp;programowaniem, jak i&nbsp;historią oraz filozofią.
+              </strong>
+              Znany jest jednak przede wszystkim jako
+              <strong>
+                twórca języka C++, który sam wymyślił i&nbsp;rozwinął
+              </strong>
+              jako rozszerzenie języka&nbsp;C. Warto dodać, że już od lat&nbsp;90 ubiegłego stulecia C++
+              należy do&nbsp;czołówki najpopularniejszych języków
+              programowania. Obecnie Stroustrup wykłada na&nbsp;amerykańskich uczelniach i&nbsp;pracuje
+              w&nbsp;Morgan Stanley.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Guido van Rossum <i>(ur. 1956)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Guido_van_Rossum" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Guido-portrait-2014.jpg/1200px-Guido-portrait-2014.jpg"
+                  alt="Fotografia Guido van Rossum" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Na uwagę zasługuje bez wątpienia również holenderski programista, który
+              <strong>
+                jest twórcą języka Python.
+              </strong>
+              Guido van Rossum ukończył studia w&nbsp;Amsterdamie, pracował w&nbsp;instytutach badawczych,
+              a&nbsp;potem przeprowadził się do Stanów Zjednoczonych. Tam
+              <strong>
+                koncentrował się początkowo na rozwoju języka ABC.
+              </strong>
+              Co ciekawe
+              <strong>
+                Python powstał z&nbsp;nudów
+              </strong>
+              – programista miał zbyt dużo wolnego czasu przed świętami w&nbsp;1989&nbsp;roku,
+              a&nbsp;nazwa
+              języka została zaczerpnięta z&nbsp;„Latającego Cyrku Monty Pythona”. Holender został
+              uznany za wybitnego informatyka przez Association for Computing Machinery, otrzymał nagrodę
+              NLUUG w&nbsp;2003&nbsp;roku. Obecnie pracuje w&nbsp;Dropbox.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">James Gosling <i>(ur. 1955)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+
+            <a href="https://pl.wikipedia.org/wiki/James_Gosling" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://usesthis.com/images/interviews/james.gosling/portrait.jpg"
+                  alt="Fotografia Jamesa Goslinga" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Kanadyjczyk ma na koncie wiele różnych sukcesów IT, ale najbardziej znany jest jako
+              <strong>
+                ojciec języka Java,
+              </strong>
+              którego podstawy opracował w&nbsp;1994&nbsp;roku
+              <strong>
+                i&nbsp;przygotował pierwszą wersję maszyny wirtualnej.
+              </strong>
+              Gosling jest także twórcą implementacji Emacsa, miał również wkład w&nbsp;budowę
+              NeWS. Szybko został publicznie doceniony. W&nbsp;2007&nbsp;roku otrzymał Order Kanady, jest
+              członkiem National Academy of Engineering. Od 2011&nbsp;roku pracuje w&nbsp;Google.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Linus Torvalds <i>(ur. 1969)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Linus_Torvalds" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://ichef.bbci.co.uk/news/1024/media/images/60866000/jpg/_60866280_linus1.jpg"
+                  alt="Fotografia Linusa Torvaldsa" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Fiński programista, który miał bardzo duży
+              <strong>wkład w rozwój wolnego oprogramowania.
+              </strong>
+              Znany jest przede wszystkim z&nbsp;tego, że
+              <strong>
+                stworzył jądro Linux.
+              </strong>
+              Co ciekawe, przygotowywał go w wolnym czasie, wykorzystując swój domowy komputer,
+              a&nbsp;inspiracją był edukacyjny system MINIX. Pierwsza wersja Linuxa pojawiła się
+              w&nbsp;1991&nbsp;roku. Obecnie Torvalds ogranicza się bardziej do nadzorowania projektu. Fin
+              znany jest z&nbsp;tego, że rzadko zabiera publicznie głos. W&nbsp;2012&nbsp;roku Torvalds
+              został
+              uhonorowany Millennium Technology Prize przez Technology Academy Finland.
+              <strong>
+                Jest również autorem systemu kontroli wersji Git.
+              </strong>
+              Programista mieszka w&nbsp;Stanach Zjednoczonych i&nbsp;pracuje
+              w&nbsp;Linux
+              Foundtation.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Brian Kernighan <i>(ur. 1942)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Brian_Kernighan" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Brian_Kernighan_in_2012_at_Bell_Labs_1.jpg"
+                  alt="Fotografia Briana Kernighana" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Kernighan pracował w&nbsp;Bell Labs i&nbsp;
+              <strong>
+                jest współautorem pierwszej książki na temat programowania w&nbsp;języku&nbsp;C.
+              </strong>
+              Ten programista
+              <strong>
+                jest również współtwórcą Unix i&nbsp;języków AWK oraz AMPL.
+              </strong>
+              Kanadyjczyk jest także autorem licznych programów unixowych, jak na przykład Ditroff, Cron.
+              Obecnie Kernighan jest profesorem Princeton University.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Tim Berners-Lee <i>(ur. 1955)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Tim_Berners-Lee" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://www.dw.com/image/16578312_303.jpg" alt="Fotografia Briana Kernighana"
+                  class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Brytyjski programista (również fizyk, o&nbsp;czym niewiele osób wie) jest znany przede
+              wszystkim
+              jako
+              <strong>
+                współtwórca usługi internetowej WWW.
+              </strong>
+              Zanim Berners-Lee zasłynął z&nbsp;tego wynalazku, miał już bardzo duże doświadczenie
+              programistyczne (zajmował się między innymi systemami rozproszonych transakcji), pracował
+              dla
+              CERN w&nbsp;Genewie. Przełomowy w&nbsp;jego życiu był rok 1989, gdy Brytyjczyk
+              <strong>
+                zaproponował ogólnoświatowy projekt hipertekstowy i&nbsp;napisał pierwszy serwer (HTTPD)
+                oraz pierwszą przeglądarkę, a także edytor hipertekstu.
+              </strong>
+              W&nbsp;1994&nbsp;roku Berners-Lee powołał do istnienia
+              <strong>
+                organizację W3C,
+              </strong>
+              którą zarządza do dziś.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Donald Knuth <i>(ur. 1938)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Donald_Knuth" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://i.insider.com/55a003fb6bb3f7996df7425c?width=1100&format=jpeg&auto=webp"
+                  alt="Fotografia Donalda Knutha" class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Obecnie emerytowany profesor Uniwersytetu Stanforda, ale to przede wszystkim człowiek
+              o&nbsp;ogromnych zasługach dla całej branży IT. Często
+              <strong>
+                określa się go mianem pioniera informatyki i&nbsp;ojca analizy algorytmów.
+              </strong>
+              Jest autorem ogromnego, wielotomowego dzieła
+              <strong>
+                „The Art of Computer Programming”
+              </strong>.
+              Przygotował między innymi program TeX (system składu drukarskiego) oraz opracował język
+              METAFONT.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="programmer-card">
+        <h3 class="programmer-card__name">Ken Thompson <i>(ur. 1943)</i></h3>
+        <ul class="programmer-card__list">
+          <li class="programmer-card__list-item">
+            <a href="https://pl.wikipedia.org/wiki/Ken_Thompson" class="programmer-card__list-link">
+              <div class="programmer-card__img-container">
+                <img src="https://miro.medium.com/max/2800/0*kDj0aODvKKYs61AS.jpg" alt="Fotografia Kena Thompsona"
+                  class="programmer-card__img">
+              </div>
+            </a>
+            <p class="programmer-card__paragraphs">
+              Kolejny pionier informatyki,
+              <strong>
+                współtwórca języka programowania B, a&nbsp;także systemu Unix.
+              </strong>
+              Thompson brał udział również w&nbsp;opracowaniu
+              <strong>
+                systemu operacyjnego Plan&nbsp;9 oraz Inferno.
+              </strong>
+              Pracował razem z&nbsp;Dennisem Ritchie w&nbsp;Bell Labs. Amerykanin jest także autorem
+              <strong>
+                edytora QED dla systemu CTSS, gdzie po raz pierwszy wykorzystano wyrażenia regularne
+              </strong>
+              (wzorce opisujące łańcuchy symboli) do wyszukiwania tekstu. Od 2006&nbsp;roku pracuje
+              w&nbsp;Google.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+
+</body>
+
 </html>
